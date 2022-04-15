@@ -7,7 +7,7 @@ const NavBar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#F7E9D7] text-black">
       <div>
         <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
       </div>
@@ -31,7 +31,7 @@ const NavBar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#F7E9D7] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">Home</li>
@@ -40,9 +40,6 @@ const NavBar = () => {
         <li className="py-6 text-4xl">Work</li>
         <li className="py-6 text-4xl">Contact</li>
       </ul>
-
-      {/* Social Icons */}
-      <div className="hidden"></div>
     </div>
   );
 };
