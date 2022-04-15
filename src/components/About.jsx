@@ -1,5 +1,4 @@
 import React from "react";
-import ProfilePicture from "../assets/profile-pic.png";
 
 const About = () => {
   return (
@@ -18,11 +17,6 @@ const About = () => {
               industry, I decided to continue growing my technical skills to
               build interactive web experiences using Javascript and React.
             </p>
-            {/* <img
-                className="object-scale-down h-50 w-50 rounded-full pt-10"
-                src={ProfilePicture}
-                alt="Rosemary Ku"
-              /> */}
           </div>
         </div>
       </div>
