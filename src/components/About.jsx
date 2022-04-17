@@ -10,7 +10,7 @@ const About = () => {
               ABOUT ME
             </p>
             <p className="w-30 px-20 mx-20 pt-10 text-justify">
-              Hi, my name is Rosemary and I'm a full-stack developer based in
+              Hi, my name is Rosemary Ku and I'm a full-stack developer based in
               Toronto. I love taking on intricate new challenges and building
               creative solutions with sound logic and clean code. After seeing
               first-hand how software could addess many gaps in the healthcare
