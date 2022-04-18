@@ -17,7 +17,7 @@ const Projects = () => {
             className="shadow-lg shadow-[#bbbbbb] group container rounded-md flex justify-center items-center mx-auto content-div"
           ></div>
           <div>
-            <h2>REACTS.JS APP </h2>
+            <b className="text-lg text-center">REACTS.JS APP </b>
             <p>
               Mentor Me is a web app designed to connect users with mentors who
               can assist with coding-related questions. Users can search for
