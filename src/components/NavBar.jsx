@@ -16,28 +16,23 @@ const NavBar = () => {
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
-        <li>
           <Link to="about" smooth={true} duration={500}>
-            About
+            ABOUT
           </Link>
         </li>
         <li>
           <Link to="skills" smooth={true} duration={500}>
-            Skills
+            SKILLS
           </Link>
         </li>
         <li>
           <Link to="projects" smooth={true} duration={500}>
-            Projects
+            PROJECTS
           </Link>
         </li>
         <li>
           <Link to="contact" smooth={true} duration={500}>
-            Contact
+            CONTACT
           </Link>
         </li>
       </ul>
@@ -55,11 +50,6 @@ const NavBar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#F7E9D7] flex flex-col justify-center items-center"
         }
       >
-        <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-            Home
-          </Link>
-        </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About

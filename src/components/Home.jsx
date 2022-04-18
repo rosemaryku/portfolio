@@ -7,16 +7,16 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#F7E9D7] text-black">
       {/* Container */}
       <div className="max-w-[1000pm] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#8E3200]">Hi, my name is</p>
+        <p className="text-[#8E3200]"> Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#3A3845]">
           Rosemary Ku
         </h1>
         <h2 className="text-3xl sm:text-6xl font-bold text-[#827397]">
           I'm a Full Stack Developer
         </h2>
-        <p className="text-[#827397] py-4">
-          I have a passion for building products that are aesthetically pleasing
-          using clean code.
+        <p className="text-[#827397] text-lg py-4">
+          I love building products that are aesthetically pleasing using clean
+          code.
         </p>
         <div>
           <Link to="projects" smooth={true} duration={500}>
