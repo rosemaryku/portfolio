@@ -15,6 +15,9 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-[#827397]">
             CONTACT
           </p>
+          <br />
+          <br />
+          <i>Feel free to send me a message - I'm always happy to connect!</i>
         </div>
         <input
           className="bg-[#ffffff] border-[#ffffff] p-2"
