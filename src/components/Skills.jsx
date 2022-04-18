@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="flex flex-col justify-center items-center w-full h-screen bg-[#F7E9D7] text-black"
+      className="flex flex-col justify-center items-center w-full h-full pb-20 bg-[#F7E9D7] text-black"
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col text-center w-full h-full">
@@ -20,7 +20,7 @@ const Skills = () => {
             SKILLS
           </p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-1 text-center py-10">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-6 gap-1 text-center py-2">
           <div>
             <img className="w-20 mx-auto" src={ReactLogo} alt="React Logo" />
             <p className="my-3">React</p>
