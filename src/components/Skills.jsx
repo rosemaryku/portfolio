@@ -5,6 +5,7 @@ import JavaScript from "../assets/javascript.png";
 import TypeScript from "../assets/typescript.png";
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
+import Postgres from "../assets/postgres.png";
 
 const Skills = () => {
   return (
@@ -38,10 +39,10 @@ const Skills = () => {
           <div>
             <img
               className="w-20 mx-auto"
-              src={TypeScript}
+              src={Postgres}
               alt="TypeScript Logo"
             />
-            <p className="my-3">TypeScript</p>
+            <p className="my-3">PostgreSQL</p>
           </div>
 
           <div>

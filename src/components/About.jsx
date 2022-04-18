@@ -46,7 +46,7 @@ const About = () => {
     <div name="about" className="w-full h-screen bg-[#F7E9D7] text-black">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <p className="text-4xl font-bold inline border-b-4 border-[#827397]">
-          About
+          ABOUT
         </p>
 
         <div className="max-w-[1000px] w-full grid grid-cols-1 sm:grid-cols-3 gap-8 py-4 px-4">
