@@ -3,9 +3,9 @@ import ProfilePic from "../assets/profile-pic.png";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-full py-10 bg-[#F7E9D7]">
+    <div name="about" className="w-full h-full py-20 bg-[#F7E9D7]">
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <p className="text-4xl font-bold inline border-b-4 ml-2 border-[#827397]">
+        <p className="text-4xl font-bold inline border-b-4 ml-3 border-[#827397]">
           ABOUT
         </p>
 

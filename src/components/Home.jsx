@@ -26,12 +26,12 @@ const Home = () => {
         <ul className="flex py-2 space-x-4">
           <li className="px-0">
             <a href="https://github.com/rosemaryku">
-              <AiFillGithub size={28} />
+              <AiFillGithub size={32} />
             </a>
           </li>
           <li className="px-0 ">
             <a href="https://www.linkedin.com/in/rosemaryku">
-              <ImLinkedin2 size={28} />
+              <ImLinkedin2 size={32} />
             </a>
           </li>
         </ul>

@@ -11,7 +11,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="flex flex-col justify-center items-center w-full h-full pb-20 bg-[#F7E9D7] text-black"
+      className="flex flex-col justify-center items-center w-full h-full py-20 bg-[#F7E9D7] text-black"
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col text-center w-full h-full">

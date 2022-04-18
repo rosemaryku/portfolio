@@ -8,7 +8,7 @@ import logo from "../assets/logo.png";
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full h-full bg-[#F7E9D7]">
+    <div name="projects" className="w-full h-full pt-20 bg-[#F7E9D7]">
       <div className="max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 pl-4 text-center">
           <p className="text-4xl font-bold inline border-b-4 border-[#827397]">
